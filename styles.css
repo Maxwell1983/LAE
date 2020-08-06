@@ -1,0 +1,103 @@
+/*         font-family: 'Averia Serif Libre', cursive;
+
+    font-family: 'Libre Baskerville', serif;
+
+    font-family: 'Proza Libre', sans-serif; */
+
+    header {
+        height: 45.9rem;
+        width: 28rem;
+        background-image: url("../images/see.jpg");
+        background-repeat: no-repeat;        
+        background-size: contain;
+        border: 10px solid hsla(0, 57%, 51%, 0.9);
+        padding-top: 3rem;
+        margin-left: 2rem;
+        margin-right: 45rem;
+        padding-right: 0rem;
+        display: inline-block;
+        position: fixed;
+        
+        
+    }
+
+    header h1 {
+        text-align: left;
+        Font-weight: 700 (bold);
+        Font-size: 26px;
+        font-family: "Libre Baskerville";
+        margin-top: 8rem;
+        margin-left: 1.7rem;
+        font-style: italic;
+    }
+
+    main {
+        display: inline-block;
+        padding-top: 1rem;
+        position: center;
+        height: 75rem;
+        width: 35rem;
+        margin-left: 40rem;
+        margin-top: 0rem;
+    }
+
+    #images {
+        position: center;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        height: 30rem;
+        width: auto;
+    }
+
+    #lisatekst, h2 {
+        margin-left: 3rem;
+        
+    }
+
+    #lisatekst {
+        Font-weight: 400;
+        Font-size: 14px;
+        Font-family:"Proza Libre";
+        text-align: left;
+        margin-left: 3rem;
+    }
+
+    h2 {
+        line-height: 3rem;
+        display: all;
+    }
+
+    @media only screen and (min-width: 300px) and (max-width: 1200px) 
+    {
+        #images {
+            width: 50%;
+            height: auto;
+            position: left;
+        }
+        h2 {
+            display: none;
+        }
+
+        main {
+            margin-left: 30rem;
+            text-align: justify;
+        }
+
+        #lisatekst {
+            width: 50%;
+        }
+        
+        header {
+            height: 75%;
+            width: 75%;
+            margin-right: 10rem;
+            border: none;
+            
+        }
+
+        header h1 {
+            display: none;
+        }
+    }
+
+    
